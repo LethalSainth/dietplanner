@@ -1,3 +1,4 @@
+import diets
 '''This is a diet-planner that builds ann ideal weekly diet plan based on your weight class for Nigerians.'''
 
 # Collect height and weight to calculate the BMI, returns an error if digits are not entered.
