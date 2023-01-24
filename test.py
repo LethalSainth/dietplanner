@@ -12,11 +12,11 @@
 diet = []
 days_of_week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday','Saturday']
 breakfast = ['Bread', 'Egg', 'Oat', 'Junk', 'Junk1', 'Junk2', 'Junk3' ]
+lunch =  ['Rice', 'Yam', 'Semo'] 
+dinner = ['Fish stew', 'Beans', 'Pepperoni']
 
-for x in range(0,7):
-    diet.append([])
 
-    for day in days_of_week:
-        diet[x].append(day)
+for day,fast,lun,dine in zip(days_of_week,breakfast,lunch,dinner):
+    diet.append([day,fast,lun,dine])
 
 print(diet)
